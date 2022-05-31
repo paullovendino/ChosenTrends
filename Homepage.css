@@ -1,0 +1,298 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.Logopic img{
+    position: absolute;
+}
+.searchbar{
+    display: inline-block;
+    margin-left: 0px;
+    background-color: #f5f5f5;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    padding-left: 485px;
+}
+.searchbar .input{
+    width: 60%;
+    padding-left: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.searchbtn{
+    padding-left: 10px;
+    color: black;
+}
+nav{
+    width: 100%;
+    background-color: #f5f5f5;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-left: 200px;
+    padding-bottom: 10px;
+}
+nav ul{
+    padding-left: 10px;
+    width: 100%;
+    margin: 0 0 0 250px;
+    list-style: none;
+}
+nav li {
+    float: left;
+    margin: 5px
+}
+nav li a{
+    width: 100%;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+.item a:hover{
+    background-color: gray;
+    transition: all .5s;
+}
+.login{
+    background-color: black;
+    border-radius: 50em;
+
+}
+.login a{
+    color: white;
+}
+.login:hover{
+    background-color: white;
+    transition: all .5s;
+}
+.login a:hover{
+    color: black;
+    transition: all .5s;
+}
+body, html{
+    height:100%;
+    margin: 0;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+}
+.welcome{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top:40%;
+    width: 100%;
+    text-align: center;
+    font-size: 80px;
+    letter-spacing: 8px;
+    
+}
+.welcome .border{
+    background-color: rgb(255,255,255,0.6);
+    padding: 20px;
+    color: black;
+    padding-bottom: 100px;
+    font-weight: bold;
+}
+.shopnow{
+    font-family: sans-serif;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 5px;
+    padding-top: 50px;
+}
+.shopnow .border2{
+    background-color: black;
+    padding: 10px 40px;
+}
+.shopnow .border2:hover{
+    background-color: gray;
+    transition: all .3s;
+}
+.bgimg1, .bgimg2{
+    position:relative;
+    opacity: 1;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bgimg1{
+    background-image: url("6.jpg");
+    min-height: 85%;
+}
+
+.font_9{
+    background-color: white;
+}
+.Featured{
+    height: 85%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.textsec2{
+    background-color: #303133;
+    color:rgb(255, 252, 252)
+}
+.font_6{
+    padding-bottom: 50px;
+}
+.Musthave{
+    padding-bottom: 25px;
+}
+.pics{
+    float: left;
+    width: 10%;
+    padding: 0px;
+    margin-left: 23.5%;
+    position: relative;
+    transition:.5s ease-in-out;
+}
+.pics:hover{
+    transform: scale(1.1);
+}
+.pics figcaption{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: black;
+    color: white;
+    width: 300px;
+    height: 60px;
+    padding-top: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.pics figcaption:hover{
+    background-color: gray;
+    transition: all .5s;
+}
+
+.bgimg2{
+    background-image: url("2.jpg");
+    min-height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+}
+form h3{
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+    letter-spacing: 5.5px;
+    line-height: normal;
+}
+form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background-color: #f5f5f5;
+    font-size: 15px;
+}
+form button{
+    padding: 15px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+form button:hover{
+    background-color: gray;
+    color: black;
+    transition: .3s ease-in-out;
+}
+
+
+
+footer{
+    background-color: black;
+    height: auto;
+    width: 100vw;
+    font-family: "Times New Roman', Times, serif";
+    padding-top: 20px;
+    color: #fff;
+}
+.footercontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footercontent h4{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 10px;
+    line-height: 3rem;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+.socials a i{
+    font-size: 1.3rem;
+}
+.socials a:hover i{
+    color: gray;
+    transition: all .5s;
+}
+.footer2{
+    background-color: black;
+    width: 100vw;
+    padding: 0;
+    text-align: center;
+}
+.footer2 p{
+    font-size: 14px;
+    word-spacing: 2px;
+}
+.footer2 p b{
+    text-transform: uppercase;
+    opacity: .6;
+}
