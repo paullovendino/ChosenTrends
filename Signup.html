@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="signup.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <title>Customercare</title>
     <script src= "https://kit.fontawesome.com/11ac07d21b.js" crossorigin= "anonymous"></script>
@@ -28,7 +28,7 @@
                 <li class="item"><a href="Collections.html">Collections</a></li>
                 <li class="item"><a href="Mycart.html">My Cart</a></li>
                 <li class="item"><a href="CustomerCare.html">Customer Care</a></li>
-                <li class="login"><a href="#"><b>Login/Sign Up</b></a></li>
+                <li class="login"><a href="Login.html"><b>Login/Sign Up</b></a></li>
             </ul>
                 
     </nav>
@@ -37,10 +37,25 @@
 
     <div class="bgimg1">
         <div class="loginform">
-            <h1>Login</h1>
+            <h1>SignUp</h1>
             <form method="post">
                 <div class="txtfield">
                     <input type="text" required>
+                    <span></span>
+                    <label>First Name</label>
+                </div>
+                <div class="txtfield">
+                    <input type="password" required>
+                    <span></span>
+                    <label>Last name</label>
+                </div>
+                <div class="txtfield">
+                    <input type="password" required>
+                    <span></span>
+                    <label>Email</label>
+                </div>
+                <div class="txtfield">
+                    <input type="password" required>
                     <span></span>
                     <label>Username</label>
                 </div>
@@ -49,11 +64,14 @@
                     <span></span>
                     <label>Password</label>
                 </div>
-                <div class="forgotpass">Forgot Password?</div>
-                <input type="submit" value="Login">
-                <div class="signuplink">
-                    Haven't registered yet? <a href="Signup.html">Signup</a>
+                <div class="txtfield">
+                    <input type="password" required>
+                    <span></span>
+                    <label>Re-enter Password</label>
                 </div>
+
+                <input type="submit" value="Register">
+
             </form>
         </div>
     </div>
