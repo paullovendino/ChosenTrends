@@ -166,9 +166,6 @@ form .txtfield{
     color: black;
     cursor: pointer;
 }
-.forgotpass:hover{
-    text-decoration: underline;
-}
 input[type="submit"]{
     width: 100%;
     height: 50px;
