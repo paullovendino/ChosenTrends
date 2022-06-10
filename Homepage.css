@@ -62,7 +62,7 @@ nav li a{
 }
 .item a:hover{
     background-color: #f5f5f5;
-    transition: all .5s;
+    transition: all .2s;
     color:#808080;
     font-weight: bold;
 }
@@ -76,11 +76,11 @@ nav li a{
 }
 .login:hover{
     background-color: white;
-    transition: all .5s;
+    transition: all .2s;
 }
 .login a:hover{
     color: black;
-    transition: all .5s;
+    transition: all .2s;
 }
 .login{
     background-color: black;
