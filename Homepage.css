@@ -202,6 +202,7 @@ body, html{
 .pics figcaption:hover{
     background-color: gray;
     transition: all .5s;
+    cursor: pointer;;
 }
 
 .bgimg2{

@@ -85,7 +85,7 @@
     </div>
   
     <div class="bgimg2">
-      <form action="https://formsubmit.co/john.paullovendino0614@gmail.com" method="POST" onsubmit="sendEmail(); reset(); return false;">
+      <form onsubmit="sendEmail(); reset(); return false;">
         <h3> WE WOULD LIKE TO HEAR FROM YOU</h3>
         <input type="text" id="name" placeholder="Enter your Name">
         <input type="email" id="email" placeholder="Enter your Email Address">
@@ -95,7 +95,22 @@
       </form>
     </div>
 
-
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+            Email.send({
+                Host : "smtp.gmail.com",
+                Username : "lovendino.johnpaul.ccs@gmail.com",
+                Password : "clgfpkbrkvzkqsbz",
+                To : 'lovenino_johnpaul@plpasig.edu.ph',
+                From : document.getElementById("email").value,
+                Subject : "New Message from Customer",
+                Body : "And this is the body"
+                }).then(
+                    message => alert("Message Sent Succesfully!")
+                    );
+        }
+    </script>
 
     <footer>
       <div class="footercontent">
